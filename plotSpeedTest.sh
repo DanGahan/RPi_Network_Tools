@@ -36,7 +36,7 @@ EOFMarker
     set xlabel "Date / Time"
     set ylabel "Mbps"
     set term png size 1000,320
-    set output '$HTTPDDIR/down.png'
+    set output '$HTTPDDIR/up.png'
     plot '$TEMPDIR/up.csv' using 1:2 title 'Up' with lines
 EOFMarker
 
